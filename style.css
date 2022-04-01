@@ -1,0 +1,42 @@
+body{text-align: center;} 
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border:1px solid;
+    display: inline-block;
+    }
+
+.o {position: relative;
+    color: rgb(198, 243, 36);
+
+}
+
+.o:after{
+    content: '\1f6E1';
+    font-size: 90px;
+    position: absolute;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    height: 0;
+    left: 0 ;
+    right: 0; 
+}
+
+.x{ color: aqua;
+    position: relative;
+}
+.x:before { 
+    content: '\2694';
+    font-size: 90px;
+    position: absolute;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    height: 0;
+    left: 0 ;
+    right: 0; 
+
+}
